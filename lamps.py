@@ -1,4 +1,8 @@
 # 8 arguments: grid_width, grid_height, conn_x1, conn_y1, conn_x2, conn_y2, start_x, start_y
+# starting with all lights open, turn off one light and connected light also turns off.
+# count how many light remains open at the end
+
+
 m=4
 n=2
 light=[]
