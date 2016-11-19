@@ -1,3 +1,6 @@
+#two lines 1234 and 1235, each line contains 1 to 50 households
+#must deliver mails in the given order, output the min time to deliver
+
 num_packages=4;
 delivery_sequence=['1234-1','1235-1','1235-3','1234-2']
 
