@@ -1,3 +1,8 @@
+#input a matrix(n,n), (i,j)=1 means i zombie and j zombie knows each other, (i,j)=1 means dont know
+#if i know j, j know k, i is in the same cluster with k.
+#Count how many clusters for a input matrix
+
+
 def zombieCluster(zombies):
     zombies = [list(z) for z in zombies]
     n = len(zombies)
