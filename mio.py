@@ -79,4 +79,4 @@ for i in xrange(1,len(rtn)-504,22):
     index.append(rtn.index[i+504])
     compare.append(list(sharpe_optimize(temp.mean(), temp.cov().values.tolist())*10**6))
 compare = pd.DataFrame(compare,columns=stocks,index=index)
-compare.plot()
+compare.plot(colormap="jet")
