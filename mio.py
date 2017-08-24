@@ -51,7 +51,7 @@ def sharpe_optimize(mu, Q):
     for i in xrange(N):
         for j in xrange(N):
             if Q[i][j] != 0:
-                obj += Q[i][j] * y[i] * y[i]
+                obj += Q[i][j] * y[i] * y[j]
     model.setObjective(obj, GRB.MINIMIZE)
     model.update()
     # Solve
